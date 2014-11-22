@@ -2,9 +2,8 @@
 #include<iostream>
 
 void show(std::vector<int> & tab){
-	std::vector<int> result = tab;
-	for(int i = 0; i < result.size(); i++){
-		std::cout << result[i] << std::endl;
+	for(int i = 0; i < tab.size(); i++){
+		std::cout << tab[i] << std::endl;
 	}
 }
 
@@ -42,7 +41,7 @@ std::vector<int> generator()
 {
 	std::vector<int> tab(10);
 	for(int i = 0; i < 10; ++i){
-		tab.push_back(i);
+		tab[i] = i;
 	}
 	return tab;
 }

@@ -1,5 +1,5 @@
-include<vector>
-include<iostdlib>
+#include<vector>
+#include<iostream>
 
 void show(std::vector<int> & tab){
 	std::vector<int> result = tab;

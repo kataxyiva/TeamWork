@@ -1,3 +1,5 @@
+#ifndef GENERATOR_H
+#define GENERATOR_H
 #include <iostream>
 #include <vector>
 
@@ -9,3 +11,4 @@ std::vector<int> generator()
 	}
 	return tab;
 }
+#endif
